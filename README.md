@@ -48,11 +48,11 @@ KPI cards were selected because they provide immediate visibility into critical 
 ### Overview
 This visual analyses sales and profit performance over time to identify growth patterns, fluctuations, seasonality, and overall business momentum.
 
-The chart compares total sales against total profit across the reporting timeline, allowing stakeholders evaluate whether revenue growth is translating into profitability.
+The chart compares total sales against total profit across the reporting timeline, allowing stakeholders to evaluate whether revenue growth is translating into profitability.
 
 ### Key Observations
 
-- The business demonstrates an overall upward sales trend over time, with sales peaking at approximately $118K towards the later reporting periods.
+- The business demonstrates an overall upward sales trend, with sales peaking at approximately $118K towards the later reporting periods.
 
 - Profit growth remains positive but significantly lower relative to sales, suggesting that increased revenue does not always result in proportional profitability.
 
@@ -62,7 +62,7 @@ The chart compares total sales against total profit across the reporting timelin
   - operational instability,
   - or varying customer purchasing behaviour.
 
-- Certain periods also show reduced profitability despite healthy sales performance, which could point to:
+- Notably, certain periods also show reduced profitability despite healthy sales performance, which could point to:
   - increased operational costs,
   - higher discounts,
   - shipping expenses,
