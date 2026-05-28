@@ -7,6 +7,7 @@ Interactive Power BI dashboard analysing sales, profitability, product performan
 ### Overview
 This page provides a high-level summary of overall business performance across sales, profitability, orders, and product activity. The goal of the dashboard is to help decision-makers quickly evaluate business health, monitor KPIs, and identify areas requiring attention.
 
+
 ## 📌 KPI Summary Cards
 
 ![KPI Summary Cards](screenshots/KPI-summary-cards.png)
@@ -38,6 +39,7 @@ While the business demonstrates strong sales performance, the profit margin indi
 
 ### Why This Visual Was Used
 KPI cards were selected because they provide immediate visibility into critical business metrics and support fast executive-level decision-making.
+
 
 ## 📈 Business Performance Trend
 
