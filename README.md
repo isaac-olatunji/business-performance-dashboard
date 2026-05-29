@@ -118,7 +118,7 @@ A clustered bar chart allows stakeholders to directly compare revenue and profit
 
 ## 🏆 Top 5 Performing Products Analysis
 
-![Top Performing Products](screenshots/top 5-performing-products.png)
+![Top Performing Products](screenshots/top5-performing-products.png)
 
 ### Purpose
 This visual identifies the products contributing the highest profit to the business.
