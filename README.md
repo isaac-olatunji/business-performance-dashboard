@@ -59,7 +59,7 @@ Tracking profit alongside revenue helps stakeholders evaluate business sustainab
 
 ## 📈 Business Performance Trend Analysis
 
-![Business Performance Trend](screenshots/executivepage/business-performance-trend.png)
+![Business Performance Trend](screenshots//executivepage/business-performance-trend.png)
 
 ### Purpose
 This line chart tracks sales and profit performance over time to identify:
