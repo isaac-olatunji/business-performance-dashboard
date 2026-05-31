@@ -17,7 +17,7 @@ Rather than simply presenting charts, the objective was to create a Business Int
 
 ## 📋 Executive Overview
 
-![Executive Overview](screenshots/executivepage/executive-overview.png)
+![Executive Overview](screenshots/executive-page/executive-overview.png)
 
 ### Overview
 This page was designed to provide a high-level summary of overall business performance across sales, profitability, order activity, and product movement.
@@ -59,7 +59,7 @@ Tracking profit alongside revenue helps stakeholders evaluate business sustainab
 
 ## 📈 Business Performance Trend Analysis
 
-![Business Performance Trend](screenshots//executivepage/business-performance-trend.png)
+![Business Performance Trend](screenshots/executivepage/business-performance-trend.png)
 
 ### Purpose
 This line chart tracks sales and profit performance over time to identify:
