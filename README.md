@@ -17,7 +17,7 @@ Rather than simply presenting charts, the objective was to create a Business Int
 
 ## 📋 Executive Overview
 
-![Executive Overview](screenshots/executive-overview.png)
+![Executive Overview](screenshots/executivepage/executive-overview.png)
 
 ### Overview
 This page was designed to provide a high-level summary of overall business performance across sales, profitability, order activity, and product movement.
@@ -59,7 +59,7 @@ Tracking profit alongside revenue helps stakeholders evaluate business sustainab
 
 ## 📈 Business Performance Trend Analysis
 
-![Business Performance Trend](screenshots/business-performance-trend.png)
+![Business Performance Trend](screenshots/executivepage/business-performance-trend.png)
 
 ### Purpose
 This line chart tracks sales and profit performance over time to identify:
@@ -88,7 +88,7 @@ Line charts are highly effective for time-series analysis because they clearly d
 
 ## 📊 Category Revenue & Profitability Analysis
 
-![Category Revenue and Profitability](screenshots/category-profitability-analysis.png)
+![Category Revenue and Profitability](screenshots/executivepage/category-profitability-analysis.png)
 
 ### Purpose
 This visual compares category-level revenue against actual profitability to evaluate category performance efficiency.
@@ -118,7 +118,7 @@ A clustered bar chart allows stakeholders to directly compare revenue and profit
 
 ## 🏆 Top 5 Performing Products Analysis
 
-![Top Performing Products](screenshots/top5-performing-products.png)
+![Top Performing Products](screenshots/executivepage/top5-performing-products.png)
 
 ### Purpose
 This visual identifies the products contributing the highest profit to the business.
@@ -154,7 +154,7 @@ These slicers allow users to dynamically explore business performance and conduc
 
 ## 📌 Scenario-Based Analysis — Filtered Dashboard View
 
-![Scenario View](screenshots/scenario-view.png)
+![Scenario View](screenshots/executivepage/scenario-view.png)
 
 ### Purpose
 This filtered dashboard view demonstrates the interactivity of the dashboard by showing how business performance changes when specific filters are applied.
