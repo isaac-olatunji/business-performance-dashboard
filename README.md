@@ -491,6 +491,293 @@ It also validates that all slicers dynamically update every visual across the pa
 
 ---
 
+---
+
+# ⚠️ Risk Analysis
+
+## 📋 Dashboard View
+
+![Risk Analysis Overview](screenshots/risk-analysis-overview.png)
+
+### Overview
+While the Executive Overview and Product Analysis pages focus on overall performance and product profitability, the Risk Analysis page investigates the underlying causes of profit loss across the business.
+
+The objective is to identify where the business is losing money, which products and subcategories carry the highest risk, and how discounting behaviour is directly contributing to profit erosion.
+
+This page combines discount impact analysis, subcategory loss identification, discount level tracking, and low margin product investigation to help stakeholders understand and address the root causes of underperformance.
+
+---
+
+## 📌 KPI Summary
+
+| KPI | Value | What It Represents |
+|---|---|---|
+| **Loss Sales** | $472.25K | Total revenue generated from orders that resulted in a loss |
+| **Loss Orders** | 1K | Total number of orders that produced a negative profit outcome |
+| **Average Discount** | 15.54% | The average discount applied across all transactions |
+| **Profit Margin** | 12.56% | Overall business profit margin across the reporting period |
+
+### Business Insight
+The business generated **$472.25K in loss-making sales** across approximately **1,000 orders** — meaning a significant portion of transactions are actively costing the business money rather than contributing to profitability.
+
+With an average discount of **15.54%** sitting just above the average discount reference line, the data suggests that discounting is a primary driver of profit erosion. Understanding where and how discounts are being applied is critical to addressing this risk.
+
+---
+
+## 🚨 Key Risk Findings
+
+The Risk Analysis page revealed three major business risks:
+
+1. **Tables** is the largest loss-making subcategory, generating approximately **-$17.8K** in losses despite strong sales performance.
+2. **High discounting is strongly correlated with negative profitability**, with most loss-making transactions occurring above the business average discount level.
+3. Several products are operating at extreme negative margins, with discounts ranging from **50%–80%**, indicating weak discount governance and pricing controls.
+
+These findings suggest that profitability challenges are driven more by pricing and discount strategy than by sales volume alone.
+
+---
+
+## 💥 Impact of Discounts on Profitability
+
+![Impact of Discounts on Profitability](screenshots/impact-of-discounts-on-profitability.png)
+
+### Purpose
+This scatter chart maps the relationship between average discount levels and total profit across all transactions, revealing how discounting behaviour directly influences profitability outcomes.
+
+### How to Read This Visual
+- Each bubble represents a product or transaction
+- Bubble size represents sales volume — larger bubbles indicate higher revenue transactions
+- The vertical dashed line marks the **average discount (15.54%)** — a key reference point
+- The horizontal dashed line marks the **break-even point (Profit = $0)**
+- Two zones are highlighted:
+  - 🟢 **Efficient Zone** (Low Discount, High Profit) — transactions generating healthy profit at low discount levels
+  - 🔴 **Danger Zone** (High Discount, Loss) — transactions where heavy discounting has pushed profit into negative territory
+
+### Key Findings
+The majority of profitable transactions cluster in the **0–20% discount range**, confirming that low-discount sales are the primary driver of business profitability.
+
+As discount levels increase beyond the average, profit levels deteriorate progressively. Transactions in the **40–80% discount range** consistently fall below the break-even line, confirming that heavy discounting is directly causing losses.
+
+The large blue bubble in the Efficient Zone represents the **Canon imageCLASS 2200 Advanced Copier** — generating $25K+ in profit at a low discount level, further reinforcing that high-value Technology products perform best when discounting is minimised.
+
+### Business Insight
+The chart tells a clear story: **discounting beyond the business average significantly increases the risk of loss-making transactions.**
+
+The Danger Zone concentration shows that excessive discounting is not just reducing margins — it is actively generating losses. This suggests the business needs a more disciplined discount approval process, particularly for Furniture subcategories and high-volume products where heavy discounting appears most prevalent.
+
+### Why This Visual Was Chosen
+A bubble scatter chart is the most effective visual for showing the relationship between two continuous variables (discount level and profit) while incorporating a third dimension (sales volume via bubble size). The quadrant labels and reference lines make the business implications immediately clear without requiring technical interpretation.
+
+---
+
+## 📉 Loss by Sub-Category
+
+![Loss by Sub-Category](screenshots/loss-by-subcategory.png)
+
+### Purpose
+This visual identifies which subcategories are generating losses versus contributing positively to profit, allowing stakeholders to quickly isolate the problem areas within the business.
+
+### Key Findings
+
+#### 🔴 Loss-Making Subcategories
+| Subcategory | Total Profit | Risk Level |
+|---|---|---|
+| **Tables** | -$17.8K | Critical — largest loss in the business |
+| **Bookcases** | -$3.6K | High — consistent loss-maker |
+| **Supplies** | -$1.2K | Moderate — small but persistent loss |
+
+#### ⚠️ Subcategories Closest to Break-Even
+| Subcategory | Total Profit | Observation |
+|---|---|---|
+| **Fasteners** | $2.4K | Thin margin — vulnerable to discount increases |
+| **Machines** | $3.5K | Low profit relative to high sales volume |
+
+### Business Insight
+**Tables is the single most damaging subcategory in the business**, generating a loss of $17.8K despite $208K in sales. Every Tables transaction is, on average, costing the business money.
+
+The combined loss from Tables, Bookcases, and Supplies totals approximately **$22.6K** — a figure that directly suppresses the overall business profit margin. Addressing profitability in these three subcategories alone would meaningfully improve overall business performance.
+
+At the other end, Appliances ($18.3K) and Furnishings ($13.9K) demonstrate that Furniture subcategories *can* be profitable — confirming that the loss problem is concentrated in specific subcategories rather than being a category-wide issue.
+
+### Why This Visual Was Chosen
+A diverging bar chart with conditional colour coding (red for losses, grey for profits) makes the contrast between loss-making and profitable subcategories immediately visible. The $0K centre line serves as the natural break-even reference point.
+
+---
+
+## 📊 Average Discount by Sub-Category
+
+![Average Discount by Sub-Category](screenshots/average-discount-by-subcategory.png)
+
+### Purpose
+This visual ranks all subcategories by their average discount level, identifying which subcategories are being discounted most heavily and connecting discount behaviour to the loss patterns identified in the previous visuals.
+
+### Key Findings
+
+| Subcategory | Avg Discount | Profit Status | Connection |
+|---|---|---|---|
+| **Binders** | 37% | Marginal profit | Highest discounted subcategory |
+| **Machines** | 30% | Low profit ($3.5K) | Heavy discounting suppressing margins |
+| **Tables** | 26% | -$17.8K loss | High discount driving largest business loss |
+| **Bookcases** | 22% | -$3.6K loss | Above-average discount contributing to loss |
+| **Chairs** | 17% | Positive profit | Discount manageable but above average |
+| **Labels** | 7% | 43.9% margin | Lowest discount — highest margin |
+
+### Business Insight
+The discount ranking directly explains the loss patterns seen in the previous visual. **Tables (26%) and Bookcases (22%) are both being discounted significantly above the business average of 15.54%** — and both are loss-making subcategories.
+
+The inverse relationship is equally revealing: subcategories with the lowest discounts — Labels (7%), Paper (8%), Envelopes (8%) — consistently achieve the highest profit margins in the business. This pattern confirms that **discount discipline is the single most controllable lever for improving business profitability.**
+
+Binders, with the highest average discount at 37%, has not yet tipped into loss — but is operating at a level that makes it highly vulnerable to becoming loss-making if discount levels increase further.
+
+### Why This Visual Was Chosen
+A ranked column chart ordered from highest to lowest discount makes it easy to identify which subcategories carry the greatest discounting risk. The ranking format enables direct comparison across all subcategories in a single view.
+
+---
+
+## 🔍 Low Margin Products
+
+![Low Margin Products](screenshots/low-margin-products.png)
+
+### Purpose
+This table identifies individual products with the most severely negative profit margins, providing granular visibility into specific products that are driving the business losses identified at the subcategory level.
+
+### Key Findings
+
+| Product | Profit Margin | Total Profit | Avg Discount |
+|---|---|---|---|
+| Eureka Disposable Bags for Sanitaire Vibra Groomer | -275.00% | -$4.47 | 80.00% |
+| Bush Westfield Collection Bookcases | -210.00% | -$190.85 | 70.00% |
+| Euro Pro Shark Stick Mini Vacuum | -190.71% | -$325.63 | 60.00% |
+| Okidata B401 Printer | -140.00% | -$251.99 | 70.00% |
+| Cubify CubeX 3D Printer Double Head Print | -80.00% | -$8,879.97 | 53.33% |
+
+### Business Insight
+The Low Margin Products table reveals that **extreme discounting is the common thread across nearly every loss-making product**. Products with margins of -80% to -275% are almost universally carrying discounts of 50–80% — far beyond what any margin can sustainably absorb.
+
+The **Cubify CubeX 3D Printer** stands out as the highest absolute loss product, generating -$8,879.97 in losses despite $11,099.96 in sales. This is a critical finding — a product generating over $11K in revenue is simultaneously destroying nearly $9K in profit value, representing a significant net drain on business performance.
+
+The table also confirms a broader pattern: **no product operating at a 50%+ discount is generating positive profit**. This provides a clear, data-backed threshold for discount policy reform.
+
+### Why This Visual Was Chosen
+A sortable table is the most appropriate visual for product-level detail because it allows stakeholders to sort by margin, profit, or discount to investigate specific products and identify patterns across the loss-making portfolio.
+
+---
+
+## 🎛️ Interactive Slicers & Filtering
+
+The Risk Analysis page includes interactive slicers for:
+- **Date filtering** — analyse risk patterns across custom time periods
+- **Category** — isolate discount and loss behaviour within specific categories
+- **Sub-Category** — drill into specific subcategory risk profiles
+- **Region** — identify whether loss and discount patterns vary by geography
+
+These slicers allow stakeholders to dynamically investigate risk at any level of the business — from the overall portfolio down to a specific subcategory in a specific region.
+
+---
+
+## 📌 Scenario-Based Analysis
+
+The following scenarios demonstrate how the Risk Analysis page responds to targeted filtering, revealing how discount-driven losses manifest differently across specific segments of the business.
+
+---
+
+### Scenario 1 — Technology | East Region
+
+![Scenario 1 - Technology East](screenshots/risk-analysis-technology-east-scenario.png)
+
+#### Filters Applied
+- Date Range = September 10, 2023 — September 10, 2026
+- Category = Technology
+- Region = East
+
+#### KPI Results
+
+| KPI | Value |
+|---|---|
+| **Loss Sales** | $38.24K |
+| **Loss Orders** | 90 |
+| **Average Discount** | 14.10% |
+| **Profit Margin** | 15.85% |
+
+#### Business Insight
+The Technology category within the East region delivers a **profit margin of 15.85%** — above the overall business average of 12.56%. With only 90 loss-making orders and an average discount of 14.10% (below the business average), this segment demonstrates relatively disciplined discounting behaviour.
+
+The Loss by Sub-Category breakdown shows that within this filtered segment, **Accessories ($8.9K), Phones ($8.3K), and Copiers ($7.6K)** are the most profitable subcategories, while **Machines** carries the highest discount level at 26% — consistent with the broader business pattern of Machines being heavily discounted.
+
+The Low Margin Products table reveals that loss-making products in this segment are primarily driven by **Cubify CubeX 3D Printers and Okidata printers**, both carrying discounts of 53–70%.
+
+---
+
+### Scenario 2 — Furniture | Tables | East Region
+
+![Scenario 2 - Furniture Tables East](screenshots/risk-analysis-furniture-tables-east-scenario.png)
+
+#### Filters Applied
+- Date Range = September 10, 2023 — September 10, 2026
+- Category = Furniture
+- Sub-Category = Tables
+- Region = East
+
+#### KPI Results
+
+| KPI | Value |
+|---|---|
+| **Loss Sales** | $26.60K |
+| **Loss Orders** | 56 |
+| **Average Discount** | 36.23% |
+| **Profit Margin** | -27.19% |
+
+#### Business Insight
+This scenario isolates the single most damaging combination in the business — **Tables in the East region** — and the results are stark. A profit margin of **-27.19%** means the business is losing $0.27 for every dollar of Tables revenue generated in this region.
+
+With an average discount of **36.23%** — more than double the business average of 15.54% — the scatter chart shows all transactions clustering in the Danger Zone, confirming that discounting at this level makes profitable Tables sales virtually impossible.
+
+The Low Margin Products table identifies specific table products driving the deepest losses, including the **Hon 2111 Invitation Series Corner Table (-56.67%)** and **Hon 94000 Series Round Tables (-51.67%)** — both operating at significant losses across 56 loss-making orders.
+
+---
+
+### Scenario Comparison — Technology East vs Furniture Tables East
+
+| KPI | Technology — East | Furniture Tables — East | Difference |
+|---|---|---|---|
+| **Loss Sales** | $38.24K | $26.60K | Technology: higher absolute loss volume |
+| **Loss Orders** | 90 | 56 | Technology: more loss-making transactions |
+| **Average Discount** | 14.10% | 36.23% | Tables: 2.5× higher discount level |
+| **Profit Margin** | 15.85% | -27.19% | Tables: 43pp worse margin performance |
+
+### Combined Business Insight
+The comparison exposes a fundamental difference in how risk manifests across these two segments.
+
+**Technology East** generates more loss-making orders in absolute terms, but maintains a healthy overall margin of 15.85% — meaning profitable transactions significantly outweigh the loss-making ones. The risk here is manageable and concentrated in specific heavily-discounted products.
+
+**Furniture Tables East**, by contrast, has a systemic profitability problem. A -27.19% margin with a 36.23% average discount means there is no healthy baseline of profitable transactions offsetting the losses — the entire segment is structurally unprofitable under current discounting conditions.
+
+This comparison demonstrates that **not all loss-making segments carry equal risk**. Technology losses are product-specific and addressable through targeted discount controls. Furniture Tables losses are structural and require a fundamental review of pricing strategy, discount policy, and potentially whether the product line is viable at current cost levels.
+
+### Why This Analysis Matters
+This scenario analysis demonstrates the dashboard's ability to:
+- isolate risk at the intersection of category, subcategory, and region,
+- distinguish between manageable product-level risk and structural segment risk,
+- and provide the granular evidence stakeholders need to take targeted corrective action.
+
+---
+
+## 🎯 Business Recommendations
+
+Based on the findings from the Risk Analysis page, the following actions are recommended:
+
+### 1. Review Discount Policies
+Subcategories such as Tables and Bookcases consistently operate at a loss while carrying above-average discount levels. Introducing discount approval thresholds may help reduce unnecessary profit erosion.
+
+### 2. Investigate Loss-Making Products
+Products with margins below -50% should be reviewed individually to determine whether pricing, supplier costs, shipping expenses, or discounting practices are driving losses.
+
+### 3. Focus on High-Margin Product Segments
+Technology products such as Copiers and Phones demonstrate strong profitability with relatively controlled discount levels. Increasing focus on these segments could improve overall margin performance.
+
+### 4. Establish Risk Monitoring KPIs
+Establishing regular monitoring of Loss Sales, Loss Orders, Average Discount, and Profit Margin would enable earlier detection of emerging profitability risks before they materially impact business performance.
+
+
 ## 🚀 Skills Demonstrated
 
 - Data Cleaning & Transformation
