@@ -497,7 +497,7 @@ It also validates that all slicers dynamically update every visual across the pa
 
 ## 📋 Dashboard View
 
-![Risk Analysis Overview](screenshots/risk-analysis-overview.png)
+![Risk Analysis Overview](screenshots/risk-analysis/risk-analysis-overview.png)
 
 ### Overview
 While the Executive Overview and Product Analysis pages focus on overall performance and product profitability, the Risk Analysis page investigates the underlying causes of profit loss across the business.
@@ -538,7 +538,7 @@ These findings suggest that profitability challenges are driven more by pricing 
 
 ## 💥 Impact of Discounts on Profitability
 
-![Impact of Discounts on Profitability](screenshots/impact-of-discounts-on-profitability.png)
+![Impact of Discounts on Profitability](screenshots/risk-analysis/impact-of-discounts-on-profitability.png)
 
 ### Purpose
 This scatter chart maps the relationship between average discount levels and total profit across all transactions, revealing how discounting behaviour directly influences profitability outcomes.
@@ -571,7 +571,7 @@ A bubble scatter chart is the most effective visual for showing the relationship
 
 ## 📉 Loss by Sub-Category
 
-![Loss by Sub-Category](screenshots/loss-by-subcategory.png)
+![Loss by Sub-Category](screenshots/risk-analysis/loss-by-subcategory.png)
 
 ### Purpose
 This visual identifies which subcategories are generating losses versus contributing positively to profit, allowing stakeholders to quickly isolate the problem areas within the business.
@@ -605,7 +605,7 @@ A diverging bar chart with conditional colour coding (red for losses, grey for p
 
 ## 📊 Average Discount by Sub-Category
 
-![Average Discount by Sub-Category](screenshots/average-discount-by-subcategory.png)
+![Average Discount by Sub-Category](screenshots/risk-analysis/average-discount-by-subcategory.png)
 
 ### Purpose
 This visual ranks all subcategories by their average discount level, identifying which subcategories are being discounted most heavily and connecting discount behaviour to the loss patterns identified in the previous visuals.
@@ -635,7 +635,7 @@ A ranked column chart ordered from highest to lowest discount makes it easy to i
 
 ## 🔍 Low Margin Products
 
-![Low Margin Products](screenshots/low-margin-products.png)
+![Low Margin Products](screenshots/risk-analysis/low-margin-products.png)
 
 ### Purpose
 This table identifies individual products with the most severely negative profit margins, providing granular visibility into specific products that are driving the business losses identified at the subcategory level.
@@ -682,7 +682,7 @@ The following scenarios demonstrate how the Risk Analysis page responds to targe
 
 ### Scenario 1 — Technology | East Region
 
-![Scenario 1 - Technology East](screenshots/risk-analysis-technology-east-scenario.png)
+![Scenario 1 - Technology East](screenshots/risk-analysis/risk-analysis-technology-east-scenario.png)
 
 #### Filters Applied
 - Date Range = September 10, 2023 — September 10, 2026
@@ -709,7 +709,7 @@ The Low Margin Products table reveals that loss-making products in this segment 
 
 ### Scenario 2 — Furniture | Tables | East Region
 
-![Scenario 2 - Furniture Tables East](screenshots/risk-analysis-furniture-tables-east-scenario.png)
+![Scenario 2 - Furniture Tables East](screenshots/risk-analysis/risk-analysis-furniture-tables-east-scenario.png)
 
 #### Filters Applied
 - Date Range = September 10, 2023 — September 10, 2026
