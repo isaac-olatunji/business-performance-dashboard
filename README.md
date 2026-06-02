@@ -1,4 +1,4 @@
-# 📊 Business Performance Dashboard — Power BI
+## 📊 Business Performance Dashboard — Power BI
 
 ## 📌 Project Objective
 
@@ -16,6 +16,21 @@ Through interactive reporting, KPI monitoring, profitability analysis, trend eva
 - KPI Reporting
 - Interactive Filtering & Scenario Analysis
 - Data Storytelling & Decision Support
+
+---
+
+## 📌 Executive Summary
+
+Analysis of $2.33M in sales revealed that profitability challenges are driven less by revenue generation and more by discounting behaviour, product mix, and subcategory performance.
+
+Key findings include:
+- Technology is the strongest-performing category, generating approximately $147K in profit.
+- Furniture generates strong revenue but suffers from significant margin pressure.
+- Tables is the largest loss-making subcategory, producing a loss of $17.8K despite $208K in sales.
+- High discount levels are strongly associated with loss-making transactions.
+- Corporate Technology customers in the West region represent one of the most profitable growth opportunities identified.
+
+The dashboard enables stakeholders to monitor business performance, identify profitability risks, and understand the key drivers influencing sales and profit outcomes.
 
 ---
 
@@ -250,7 +265,7 @@ This page combines subcategory sales vs profit analysis, profit margin assessmen
 | **Total Orders** | 5K | Total number of customer orders processed during the reporting period |
 
 ### Business Insight
-These KPIs provide the overall business context for evaluating individual product and subcategory performance. The overall profit margin of **12.56%** serves as the benchmark against which product-level and subcategory-level profitability is assessed throughout this page.
+These KPIs provide the baseline performance context established in the Executive Overview and serve as the benchmark for evaluating product-level profitability throughout this page.
 
 ---
 
@@ -491,8 +506,6 @@ It also validates that all slicers dynamically update every visual across the pa
 
 ---
 
----
-
 # ⚠️ Risk Analysis
 
 ## 📋 Dashboard View
@@ -579,6 +592,7 @@ This visual identifies which subcategories are generating losses versus contribu
 ### Key Findings
 
 #### 🔴 Loss-Making Subcategories
+
 | Subcategory | Total Profit | Risk Level |
 |---|---|---|
 | **Tables** | -$17.8K | Critical — largest loss in the business |
@@ -586,6 +600,7 @@ This visual identifies which subcategories are generating losses versus contribu
 | **Supplies** | -$1.2K | Moderate — small but persistent loss |
 
 #### ⚠️ Subcategories Closest to Break-Even
+
 | Subcategory | Total Profit | Observation |
 |---|---|---|
 | **Fasteners** | $2.4K | Thin margin — vulnerable to discount increases |
@@ -761,37 +776,381 @@ This scenario analysis demonstrates the dashboard's ability to:
 
 ---
 
-## 🎯 Business Recommendations
+# 🚀 Business Drivers Analysis
 
-Based on the findings from the Risk Analysis page, the following actions are recommended:
+## 📋 Dashboard View
 
-### 1. Review Discount Policies
-Subcategories such as Tables and Bookcases consistently operate at a loss while carrying above-average discount levels. Introducing discount approval thresholds may help reduce unnecessary profit erosion.
+![Business Drivers Overview](screenshots/business-drivers/business-drivers-overview.png)
 
-### 2. Investigate Loss-Making Products
-Products with margins below -50% should be reviewed individually to determine whether pricing, supplier costs, shipping expenses, or discounting practices are driving losses.
+### Overview
+While the Executive Overview monitors overall business health, the Product Analysis examines product-level profitability, and the Risk Analysis investigates loss drivers, the Business Drivers Analysis page answers a different question entirely:
 
-### 3. Focus on High-Margin Product Segments
-Technology products such as Copiers and Phones demonstrate strong profitability with relatively controlled discount levels. Increasing focus on these segments could improve overall margin performance.
+> *What is actually driving business performance — and where are the strongest growth opportunities?*
 
-### 4. Establish Risk Monitoring KPIs
-Establishing regular monitoring of Loss Sales, Loss Orders, Average Discount, and Profit Margin would enable earlier detection of emerging profitability risks before they materially impact business performance.
+This page combines customer segment contribution analysis, geographic profit distribution, discount-to-sales relationships, shipping mode performance, and subcategory-level business drivers to give stakeholders a complete picture of the forces shaping business results.
 
+---
+
+## 📌 KPI Summary
+
+| KPI | Value | What It Represents |
+|---|---|---|
+| **Total Sales** | $2.33M | Total revenue generated across all products, categories, and regions |
+| **Total Profit** | $292.30K | Actual profit retained after operational and product-related costs |
+| **Average Discount** | 15.54% | The average discount applied across all transactions |
+| **Profit Margin** | 12.56% | Overall business profit margin across the reporting period |
+
+### Business Insight
+These KPIs provide the overall business benchmark used to evaluate how customer segments, regions, shipping modes, and product groups contribute to business performance.
+
+---
+
+## 🧩 Sales Contribution by Segment
+
+![Sales Contribution by Segment](screenshots/business-drivers/sales-contribution-by-segment.png)
+
+### Purpose
+This visual shows how total sales are distributed across the three customer segments — Consumer, Corporate, and Home Office — identifying which segments drive the most revenue and where growth opportunities may exist.
+
+### Key Findings
+
+| Segment | Sales Contribution |
+|---|---|
+| **Consumer** | 50.32% |
+| **Corporate** | 30.77% |
+| **Home Office** | 18.92% |
+
+### Business Insight
+The **Consumer segment drives over half of total business revenue** at 50.32%, making it the single most important customer group by sales volume. However, volume alone does not indicate profitability — the Risk Analysis and scenario comparisons on this page reveal that Consumer Furniture sales in particular carry extremely thin margins.
+
+The **Corporate segment at 30.77%** represents a significant and potentially more profitable customer base. Corporate buyers typically purchase in higher volumes with less price sensitivity than individual consumers, making this segment worth prioritising for growth.
+
+**Home Office at 18.92%** is the smallest segment but consistently demonstrates stronger margin efficiency in scenario analysis — suggesting it may be underserved relative to its profitability potential.
+
+### Why This Visual Was Chosen
+A donut chart is ideal for showing proportional contribution across a small number of categories. The clean three-segment split makes percentage comparisons immediately visible without requiring detailed analysis.
+
+---
+
+## 🗺️ Profit Distribution by Province
+
+![Profit Distribution by Province](screenshots/business-drivers/profit-distribution-by-province.png)
+
+### Purpose
+This bubble map visualises profit performance at the state level, replacing a simple regional bar chart to reveal *where within each region* profit is actually being generated — and where geographic risk concentrations exist.
+
+### How to Read This Visual
+- **Bubble size** represents sales volume — larger bubbles indicate higher revenue states
+- **Colour gradient** represents profit performance:
+  - 🟢 **Dark green** — high profit states
+  - 🟠 **Orange** — moderate profit states
+  - 🔴 **Pink/Red** — low profit or loss-contributing states
+
+### Key Findings
+
+| State | Profit Signal | Observation |
+|---|---|---|
+| **California** | 🟢 Dark green, large bubble | Dominant profit driver — strongest state in the business |
+| **Washington** | 🟢 Green, medium bubble | Second strongest West Coast contributor |
+| **New York** | 🟢 Green, medium bubble | Primary East region profit anchor |
+| **Texas** | 🔴 Large pink bubble | High sales volume but low profit contribution |
+| **Florida** | 🔴 Pink bubble | Below-average profit performance despite market size |
+| **Northeast cluster** | 🟠 Orange bubbles | Moderate performance across Pennsylvania, Ohio, Illinois |
+
+### Business Insight
+The map reveals that **West Coast and Northeast states are the primary profit engines of the business**. California alone appears to be the single largest profit-contributing state, with Washington reinforcing the West region's dominance.
+
+The most striking finding is the **Texas and Florida anomaly** — both are large states with significant sales bubbles, yet their pink/red colouring signals that profit performance is well below their revenue potential. This mirrors the broader pattern identified in the Risk Analysis: high-discount, low-margin transactions are concentrated in specific geographic areas rather than being evenly distributed.
+
+The Central region's predominantly orange colouring confirms it as the weakest-performing region — consistent with the overall findings showing Central generating only $40K in profit compared to West's $111K.
+
+### Why This Visual Was Chosen
+A bubble map communicates geographic profit distribution far more effectively than a regional bar chart. It reveals *which specific states* drive performance within each region — turning four regional numbers into a geographically actionable insight that stakeholders can use to target investment and sales strategy.
+
+---
+
+## 💠 Sales vs Discount Relationship
+
+![Sales vs Discount Relationship](screenshots/business-drivers/sales-vs-discount-relationship.png)
+
+### Purpose
+This scatter chart maps total sales against average discount level by subcategory, identifying which subcategories generate the highest revenue relative to their discount levels — and which ones rely on heavy discounting to drive volume.
+
+### Key Findings
+
+| Subcategory | Total Sales | Avg Discount | Observation |
+|---|---|---|---|
+| **Phones** | ~$330K | ~15% | Highest sales at moderate discount — strong driver |
+| **Chairs** | ~$335K | ~15% | High sales at moderate discount — volume driver |
+| **Storage** | ~$225K | ~7% | Strong sales at very low discount — highly efficient |
+| **Accessories** | ~$167K | ~7% | Good sales at low discount — efficient performer |
+| **Binders** | ~$207K | ~38% | High sales but extremely high discount — risky |
+| **Copiers** | ~$150K | ~15% | Moderate sales at average discount — profitable |
+
+### Business Insight
+**Storage and Accessories stand out as the most efficient subcategories** — generating strong sales at very low discount levels (7–8%). These subcategories are driving revenue without relying on price reductions, making them the most sustainable sales contributors in the business.
+
+**Binders is the most concerning data point on this chart** — sitting far to the right at ~38% average discount with $207K in sales. This means a significant revenue stream is being generated almost entirely through heavy discounting. Combined with the Risk Analysis finding that Binders has not yet tipped into loss, this subcategory represents a high-risk growth dependency that warrants close monitoring.
+
+**Phones and Chairs** generate the highest revenue at moderate discount levels — confirming their importance as core business volume drivers without excessive price concessions.
+
+### Why This Visual Was Chosen
+A bubble scatter chart effectively shows the relationship between sales volume and discount behaviour simultaneously, allowing stakeholders to identify both high-performing and at-risk subcategories in a single view.
+
+---
+
+## 🚚 Shipping Mode Performance
+
+![Shipping Mode Performance](screenshots/business-drivers/shipping-mode-performance.png)
+
+### Purpose
+This visual analyses profit contribution by shipping mode, identifying which delivery methods generate the most business value and where operational efficiency may be improved.
+
+### Key Findings
+
+| Ship Mode | Total Profit | Observation |
+|---|---|---|
+| **Standard Class** | $168.16K | Dominant profit contributor — 57% of total profit |
+| **Second Class** | $58.96K | Strong secondary contributor |
+| **First Class** | $49.01K | Solid performance — similar to Second Class |
+| **Same Day** | $16.16K | Lowest profit contribution |
+
+### Business Insight
+**Standard Class shipping generates $168.16K in profit — more than the other three shipping modes combined.** This is a significant operational finding: the lowest-cost shipping option is simultaneously the highest profit contributor, suggesting that customers ordering via Standard Class are either less price-sensitive, ordering higher-margin products, or both.
+
+**Same Day delivery at $16.16K** raises an important question — given the higher operational cost of expedited shipping, is the profit margin on Same Day orders significantly lower than Standard Class? If so, the business may be subsidising fast shipping without adequate pricing to compensate.
+
+This finding suggests an opportunity to review the pricing structure for premium shipping modes to ensure faster delivery options are not eroding margins.
+
+### Why This Visual Was Chosen
+A column chart ranked by profit makes shipping mode performance immediately comparable. The descending order clearly communicates the profit hierarchy without requiring interpretation.
+
+---
+
+## 📋 Business Performance Drivers
+
+![Business Performance Drivers](screenshots/business-drivers/business-performance-drivers.png)
+
+### Purpose
+This table provides a complete subcategory-level breakdown of sales, profit, and margin across all three categories — serving as the single most comprehensive reference point for understanding exactly which subcategories are driving business performance.
+
+### Key Findings
+
+#### 🟢 Highest Margin Subcategories
+
+| Category | Subcategory | Total Sales | Total Profit | Profit Margin |
+|---|---|---|---|---|
+| Office Supplies | Labels | $12,695.04 | $5,572.78 | 43.90% |
+| Office Supplies | Paper | $79,540.54 | $34,511.51 | 43.39% |
+| Office Supplies | Envelopes | $16,528.36 | $6,988.02 | 42.28% |
+| Technology | Copiers | $150,745.29 | $56,093.94 | 37.21% |
+| Technology | Accessories | $167,380.32 | $41,936.64 | 25.05% |
+
+#### 🔴 Loss-Making Subcategories
+
+| Category | Subcategory | Total Sales | Total Profit | Profit Margin |
+|---|---|---|---|---|
+| Furniture | Tables | $208,020.18 | -$17,753.21 | -8.53% |
+| Furniture | Bookcases | $115,361.20 | -$3,632.07 | -3.15% |
+| Office Supplies | Supplies | $46,725.50 | -$1,171.39 | -2.51% |
+
+### Business Insight
+The Business Performance Drivers table consolidates every finding from the previous pages into a single comprehensive view. The data confirms the core narrative of the entire dashboard:
+
+**The business has a two-speed profitability structure.** A group of Office Supplies subcategories (Labels, Paper, Envelopes) and Technology subcategories (Copiers, Accessories) are operating at margins of 25–44%, quietly generating the profit that sustains overall business health. Meanwhile, Furniture subcategories — particularly Tables and Bookcases — are generating significant revenue while actively destroying value.
+
+**Technology Copiers at 37.21% margin on $150K in sales** is arguably the single most valuable subcategory in the business relative to its size. It combines strong absolute profit ($56K) with exceptional margin efficiency.
+
+**Machines at 1.82%** is the most vulnerable healthy subcategory — generating minimal profit on $189K in sales. Any increase in costs, discounts, or fulfilment expenses could push it into loss territory.
+
+### Why This Visual Was Chosen
+A sortable table is the most appropriate format for comprehensive subcategory-level data because it allows stakeholders to rank, compare, and investigate individual performance drivers across the entire product portfolio in a single view.
+
+---
+
+## 🎛️ Interactive Slicers & Filtering
+
+The Business Drivers Analysis page includes interactive slicers for:
+- **Date filtering** — analyse driver performance across custom time periods
+- **Category** — isolate performance drivers within specific categories
+- **Region** — compare how business drivers vary across geographic markets
+- **Segments** — evaluate how Consumer, Corporate, and Home Office segments differ in performance
+
+These slicers allow stakeholders to dynamically explore which combinations of category, region, and segment produce the strongest business outcomes.
+
+---
+
+## 📌 Scenario-Based Analysis
+
+The following two scenarios compare Technology performance across two different region and segment combinations, demonstrating how the same category can produce meaningfully different outcomes depending on geographic and customer context.
+
+---
+
+### Scenario 1 — Technology | East Region | Consumer Segment
+
+![Scenario 1 - Technology East Consumer](screenshots/business-drivers/business-drivers-technology-east-consumer-scenario.png)
+
+#### Filters Applied
+- Date Range = December 11, 2023 — December 11, 2026
+- Category = Technology
+- Region = East
+- Segment = Consumer
+
+#### KPI Results
+
+| KPI | Value |
+|---|---|
+| **Total Sales** | $107.81K |
+| **Total Profit** | $14.26K |
+| **Average Discount** | 14.57% |
+| **Profit Margin** | 13.23% |
+
+#### Business Insight
+Technology sales to Consumer customers in the East region generate a **13.23% profit margin** — slightly above the overall business average of 12.56%. The average discount of 14.57% sits just below the business average, suggesting Consumer Technology buyers in the East are moderately price-sensitive but not heavily discounted.
+
+The map zooms into the Northeast corridor, showing profit concentration around **New York and Massachusetts** — confirming these as the primary Consumer Technology markets in the East region.
+
+The Business Performance Drivers table shows **Copiers (30.44% margin) and Accessories (22.83%)** as the strongest performing subcategories, while **Machines at -8.93%** is the primary drag — consistent with the broader business pattern of Machines underperforming due to heavy discounting.
+
+Standard Class shipping dominates profit contribution at $12.13K, with First Class generating a loss of -$1.06K — suggesting premium shipping in this segment is not adequately priced to cover its costs.
+
+---
+
+### Scenario 2 — Technology | West Region | Corporate Segment
+
+![Scenario 2 - Technology West Corporate](screenshots/business-drivers/business-drivers-technology-west-corporate-scenario.png)
+
+#### Filters Applied
+- Date Range = December 11, 2023 — December 11, 2026
+- Category = Technology
+- Region = West
+- Segment = Corporate
+
+#### KPI Results
+
+| KPI | Value |
+|---|---|
+| **Total Sales** | $59.46K |
+| **Total Profit** | $10.85K |
+| **Average Discount** | 13.69% |
+| **Profit Margin** | 18.25% |
+
+#### Business Insight
+Technology sales to Corporate customers in the West region generate an **18.25% profit margin** — significantly above both the overall business average (12.56%) and the East Consumer scenario (13.23%). Despite generating lower absolute revenue ($59.46K vs $107.81K), this segment is considerably more profitable on a per-dollar basis.
+
+The map zooms into the West Coast, confirming **California and Washington** as the dominant profit states within this filtered segment — reinforcing the earlier finding that these two states are the strongest geographic profit drivers in the entire business.
+
+The Business Performance Drivers table shows **Copiers at 39.54% margin** as the standout performer, with Accessories at 25.86% confirming Technology's strength in the West Corporate segment. Machines at 7.58% is notably better here than in the East Consumer scenario (-8.93%), suggesting Corporate buyers in the West are less discount-dependent for Technology purchases.
+
+The lower average discount of **13.69%** — below both the business average and the East Consumer scenario — is the key explanation for the stronger margin. Corporate customers in the West appear to be the least price-sensitive Technology buyers in the business.
+
+---
+
+### Scenario Comparison — Technology East Consumer vs Technology West Corporate
+
+| KPI | East — Consumer | West — Corporate | Difference |
+|---|---|---|---|
+| **Total Sales** | $107.81K | $59.46K | East: 1.8× higher volume |
+| **Total Profit** | $14.26K | $10.85K | East: higher absolute profit |
+| **Average Discount** | 14.57% | 13.69% | West Corporate: lower discount |
+| **Profit Margin** | 13.23% | 18.25% | West Corporate: ▲ +5.02pp more efficient |
+| **Copiers Margin** | 30.44% | 39.54% | West Corporate: significantly stronger |
+| **Machines Margin** | -8.93% | 7.58% | West Corporate: dramatic improvement |
+| **Top Profit State** | New York | California | Different geographic anchors |
+
+### Combined Business Insight
+This comparison reveals one of the most actionable insights in the entire dashboard: **the Corporate segment in the West region is significantly more profitable than the Consumer segment in the East for Technology products** — despite generating less than half the revenue.
+
+The margin difference of 5.02 percentage points is driven by three factors working together: lower average discounts, a stronger Copiers performance, and dramatically better Machines profitability. Corporate buyers in the West appear to purchase Technology products with less price negotiation, generating cleaner margins across the subcategory mix.
+
+The strategic implication is clear: **growing Technology sales to Corporate customers in the West region — particularly in California — represents one of the highest-value growth opportunities in the business.** This segment combines the business's most profitable geography with its most margin-efficient customer type.
+
+### Why This Analysis Matters
+This scenario comparison demonstrates the dashboard's ability to:
+- identify which combinations of category, region, and segment produce optimal business outcomes,
+- explain *why* margin differences exist through subcategory and discount-level drill-down,
+- and surface specific, data-backed growth opportunities for strategic decision-making.
+
+---
+
+# 🎯 Strategic Recommendations
+
+Based on the findings across all dashboard pages, the following actions are recommended:
+
+## 1. Strengthen Discount Governance
+Tables, Bookcases, and several low-margin products consistently operate at a loss while carrying above-average discount levels. Introducing discount approval thresholds and reviewing promotional policies could reduce unnecessary profit erosion.
+
+## 2. Reassess Furniture Pricing Strategy
+Tables generated over $208K in sales but produced a loss of $17.8K. A review of pricing structures, supplier costs, fulfilment expenses, and discount practices is recommended to determine whether profitability can be restored.
+
+## 3. Expand High-Margin Product Segments
+Copiers, Accessories, Labels, Paper, and Envelopes consistently demonstrate strong margin performance and should be prioritised for growth initiatives and marketing investment.
+
+## 4. Increase Focus on High-Profit Customer Segments
+Technology sales to Corporate customers in the West region generated an 18.25% profit margin, making this one of the most attractive growth opportunities identified in the analysis.
+
+## 5. Establish Ongoing Profitability Monitoring
+Regular monitoring of Profit Margin, Average Discount, Loss Orders, Loss Sales, and low-margin products would enable earlier detection of emerging profitability risks and support more proactive decision-making.
+
+---
+
+# 📝 Conclusion
+
+This Business Performance Dashboard demonstrates that revenue growth alone is not a reliable indicator of business health. Across $2.33M in sales, the analysis revealed a business with genuine strengths — a high-performing Technology category, efficient Office Supplies subcategories, and a profitable West Coast market — operating alongside structural weaknesses driven by discounting behaviour and product mix decisions.
+
+The core finding is consistent across every page of the dashboard: **discount discipline is the single most controllable lever available to improve profitability.** The data shows clearly that subcategories and products operating above the average discount threshold consistently produce lower margins or outright losses, while those with disciplined pricing generate the highest returns.
+
+The dashboard was designed not just to report what happened, but to help stakeholders understand *why* it happened and *what to do about it*. Through interactive filtering, scenario-based analysis, and cross-page insight connections, it provides the analytical foundation needed to make more informed, data-driven decisions across pricing, product strategy, customer segmentation, and regional investment.
+
+The most actionable opportunity identified is the expansion of Technology sales to Corporate customers in the West region — a segment that combines the business's strongest geography with its most margin-efficient customer type, and one that the dashboard can continue to monitor and evaluate as strategy evolves.
+
+---
+
+# 📐 Key DAX Measures
+
+The following DAX measures were written to calculate business KPIs and support dynamic analysis across all dashboard pages.
+
+```dax
+Total Sales =
+SUM(Orders[Sales])
+
+Total Profit =
+SUM(Orders[Profit])
+
+Profit Margin =
+DIVIDE([Total Profit], [Total Sales])
+
+Loss Sales =
+CALCULATE(
+    [Total Sales],
+    FILTER(Orders, Orders[Profit] < 0)
+)
+
+Average Discount =
+AVERAGE(Orders[Discount])
+```
+
+---
 
 ## 🚀 Skills Demonstrated
 
 - Data Cleaning & Transformation
-- Data Modelling
 - DAX Calculations
 - KPI Reporting
 - Subcategory & Product-Level Analysis
 - Profit Margin Analysis
+- Risk Identification & Assessment
+- Business Driver Analysis
+- Geographic Profit Analysis
+- Customer Segment Analysis
+- Shipping Mode Performance Analysis
 - Interactive Dashboard Design
+- Map Visualisation
 - Business Performance Analysis
 - Data Storytelling
 - Scenario-Based Analysis
-- Risk Identification
 - Executive Reporting
+- Strategic Insight Communication
 
 ---
 
