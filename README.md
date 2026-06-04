@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="screenshots/dashboard-cover/banner.png" alt="Business Performance Dashboard Banner" width="100%"/>
+  <img src="screenshots/dashboard-cover/dashboard_cover_banner.svg" alt="Business Performance Dashboard Banner" width="100%"/>
 </p>
 📊 Business Performance Dashboard — Power BI
 📌 Project Overview
