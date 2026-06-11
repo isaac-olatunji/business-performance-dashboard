@@ -1,7 +1,9 @@
 <p align="center">
   <img src="screenshots/dashboard-cover/dashboard_cover_banner.svg" alt="Business Performance Dashboard Banner" width="100%"/>
 </p>
+
 📊 Business Performance Dashboard — Power BI
+
 📌 Project Overview
 This Business Performance Dashboard was developed to transform transactional sales data into actionable business insights that support strategic decision-making.
 The dashboard enables stakeholders to monitor business performance, identify profitability risks, evaluate product performance, and uncover the key drivers influencing revenue and profit growth.
