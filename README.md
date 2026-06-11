@@ -75,7 +75,7 @@ AVERAGE(Orders[Discount])
 
 A comprehensive report containing dashboard walkthroughs, scenario analysis, business insights, and strategic recommendations is available here:
 
-[📄 View Full Analysis Report](dashboard-report/Business_Performance_Analysis_Report)
+[📄 View Full Analysis Report](dashboard-report/Business_Performance_Analysis_Report) https://drive.google.com/file/d/1xG117Wbz9lQLfdvJ4aw0o3JhG7-gKGSj/view?usp=sharing
 
 🚀 Skills Demonstrated
 Power BI
