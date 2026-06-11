@@ -10,24 +10,23 @@ The dashboard enables stakeholders to monitor business performance, identify pro
 
 ❓ Business Questions Answered
 This dashboard was designed to answer:
-
-Which categories generate the highest profit?
-Which products and subcategories are driving losses?
-How do discounts impact profitability?
-Which customer segments contribute the most value?
-Which regions generate the strongest profit performance?
-Where are the most attractive growth opportunities?
+- Which categories generate the highest profit?
+- Which products and subcategories are driving losses?
+- How do discounts impact profitability?
+- Which customer segments contribute the most value?
+- Which regions generate the strongest profit performance?
+- Where are the most attractive growth opportunities?
 
 
 📈 Executive Summary
 Analysis of $2.33M in sales revealed that profitability challenges are driven less by revenue generation and more by discounting behaviour, product mix, and subcategory performance.
-Key Findings
 
-Technology generated the highest profit (~$147K)
-Furniture produced strong sales but weak profitability
-Tables generated a loss of ~$17.8K despite ~$208K in sales
-Heavy discounting is strongly associated with loss-making transactions
-Corporate Technology customers in the West region represent a high-value growth opportunity
+Key Findings
+- Technology generated the highest profit (~$147K)
+- Furniture produced strong sales but weak profitability
+- Tables generated a loss of ~$17.8K despite ~$208K in sales
+- Heavy discounting is strongly associated with loss-making transactions
+- Corporate Technology customers in the West region represent a high-value growth opportunity
 
 
 📸 Dashboard Preview
@@ -35,13 +34,16 @@ Executive OverviewProduct AnalysisShow ImageShow Image
 Risk AnalysisBusiness DriversShow ImageShow Image
 
 📊 Dashboard Pages
-Executive Overview
+- Executive Overview
 Provides a high-level view of sales, profit, profit margin, order activity, category performance, and business trends.
-Product Analysis
+
+- Product Analysis
 Identifies top-performing products, profitability drivers, loss-making subcategories, and product mix distribution.
-Risk Analysis
+
+- Risk Analysis
 Examines discount-related risks, loss-making products, margin erosion, and profitability challenges.
-Business Drivers Analysis
+
+- Business Drivers Analysis
 Explores customer segments, regional performance, shipping modes, and growth opportunities influencing business performance.
 
 🛠️ Technical Implementation
@@ -77,13 +79,10 @@ A comprehensive report containing dashboard walkthroughs, scenario analysis, bus
 
 🚀 Skills Demonstrated
 Power BI
-
-
 - Power Query
 - DAX
 
 Analytics
-
 - KPI Development
 - Profitability Analysis
 - Root Cause Analysis
@@ -91,7 +90,6 @@ Analytics
 - Business Driver Analysis
 
 Business Intelligence
-
 - Dashboard Design
 - Executive Reporting
 - Data Storytelling
