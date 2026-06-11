@@ -79,24 +79,24 @@ A comprehensive report containing dashboard walkthroughs, scenario analysis, bus
 Power BI
 
 
-Power Query
-DAX
+- Power Query
+- DAX
 
 Analytics
 
-KPI Development
-Profitability Analysis
-Root Cause Analysis
-Risk Assessment
-Business Driver Analysis
+- KPI Development
+- Profitability Analysis
+- Root Cause Analysis
+- Risk Assessment
+- Business Driver Analysis
 
 Business Intelligence
 
-Dashboard Design
-Executive Reporting
-Data Storytelling
-Strategic Recommendations
-Decision Support
+- Dashboard Design
+- Executive Reporting
+- Data Storytelling
+- Strategic Recommendations
+- Decision Support
 
 
 
