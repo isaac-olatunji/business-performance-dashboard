@@ -64,7 +64,7 @@ The dataset contains transactional sales records including:
 - Sales, Profit & Quantity
 - Order Dates
 
-The data was transformed, modelled, and analysed to uncover trends, profitability patterns, performance drivers, and business risks.
+The data was transformed and analysed to uncover trends, profitability patterns, performance drivers, and business risks.
 
 ---
 
