@@ -72,11 +72,11 @@ The data was transformed, modelled, and analysed to uncover trends, profitabilit
 
 | Executive Overview | Product Analysis |
 |---|---|
-| ![Executive Overview](screenshots/executive-overview/executive-overview.png) | ![Product Analysis](screenshots/product-analysis/product-analysis-overview.png) |
+| [Executive Overview](screenshots/executive-overview/executive-overview.png) | [Product Analysis](screenshots/product-analysis/product-analysis-overview.png) |
 
 | Risk Analysis | Business Drivers |
 |---|---|
-| ![Risk Analysis](screenshots/risk-analysis/risk-analysis-overview.png) | ![Business Drivers](screenshots/business-drivers/business-drivers-overview.png) |
+| [Risk Analysis](screenshots/risk-analysis/risk-analysis-overview.png) | [Business Drivers](screenshots/business-drivers/business-drivers-overview.png) |
 
 ---
 
@@ -84,7 +84,7 @@ The data was transformed, modelled, and analysed to uncover trends, profitabilit
 
 ## 📋 Dashboard View
 
-![Executive Overview](screenshots/executive-overview/executive-overview.png)
+[Executive Overview](screenshots/executive-overview/executive-overview.png)
 
 ### Overview
 This page was designed to provide a high-level summary of overall business performance across sales, profitability, order activity, and product movement.
@@ -119,7 +119,7 @@ Tracking profit alongside revenue helps stakeholders evaluate business sustainab
 
 ## 📈 Business Performance Trend Analysis
 
-![Business Performance Trend](screenshots/executive-overview/business-performance-trend.png)
+[Business Performance Trend](screenshots/executive-overview/business-performance-trend.png)
 
 ### Purpose
 This line chart tracks sales and profit performance over time to identify:
