@@ -72,7 +72,7 @@ The data was transformed and analysed to uncover trends, profitability patterns,
 
 | Executive Overview | Product Analysis |
 |---|---|
-| [Executive Overview](screenshots/executive-overview/executive-overview.png) | [Product Analysis](screenshots/product-analysis/product-analysis-overview.png) |
+| Executive-Overview(screenshots/executive-overview/executive-overview.png) | [Product Analysis](screenshots/product-analysis/product-analysis-overview.png) |
 
 | Risk Analysis | Business Drivers |
 |---|---|
