@@ -148,7 +148,7 @@ Line charts are highly effective for time-series analysis because they clearly d
 
 ## 📊 Category Revenue & Profitability Analysis
 
-![Category Revenue and Profitability](screenshots/executive-overview/category-profitability-analysis.png)
+[Category Revenue and Profitability](screenshots/executive-overview/category-profitability-analysis.png)
 
 ### Purpose
 This visual compares category-level revenue against actual profitability to evaluate category performance efficiency.
@@ -178,7 +178,7 @@ A clustered bar chart allows stakeholders to directly compare revenue and profit
 
 ## 🏆 Top 5 Performing Products Analysis
 
-![Top Performing Products](screenshots/executive-overview/top5-performing-products.png)
+[Top Performing Products](screenshots/executive-overview/top5-performing-products.png)
 
 ### Purpose
 This visual identifies the products contributing the highest profit to the business.
@@ -214,7 +214,7 @@ These slicers allow users to dynamically explore business performance and conduc
 
 ## 📌 Scenario-Based Analysis — Filtered Dashboard View
 
-![Scenario View](screenshots/executive-overview/scenario-view.png)
+[Scenario View](screenshots/executive-overview/scenario-view.png)
 
 ### Purpose
 This filtered dashboard view demonstrates the interactivity of the dashboard by showing how business performance changes when specific filters are applied.
@@ -266,7 +266,7 @@ It also validates that all slicers dynamically affect visuals across the full da
 
 ## 📋 Dashboard View
 
-![Product Analysis Overview](screenshots/product-analysis/product-analysis-overview.png)
+[Product Analysis Overview](screenshots/product-analysis/product-analysis-overview.png)
 
 ### Overview
 While the Executive Overview focuses on overall business performance, the Product Analysis page examines performance at the product and subcategory level.
@@ -293,7 +293,7 @@ These KPIs provide the baseline performance context established in the Executive
 
 ## 📊 Subcategory Sales vs Profit Analysis
 
-![Subcategory Sales vs Profit](screenshots/product-analysis/subcategory-sales-vs-profit.png)
+[Subcategory Sales vs Profit](screenshots/product-analysis/subcategory-sales-vs-profit.png)
 
 ### Purpose
 This visual compares total sales against total profit at the subcategory level, making it easy to identify which subcategories generate strong revenue but weak profitability — and which ones are operating at a loss.
@@ -332,7 +332,7 @@ A clustered horizontal bar chart allows direct side-by-side comparison of sales 
 
 ## 📉 Profit Margin by Subcategory
 
-![Profit Margin by Subcategory](screenshots/product-analysis/profit-margin-by-subcategory.png)
+[Profit Margin by Subcategory](screenshots/product-analysis/profit-margin-by-subcategory.png)
 
 ### Purpose
 This visual ranks all subcategories by profit margin percentage, using colour coding to instantly separate profitable subcategories (green) from loss-making ones (red).
@@ -368,7 +368,7 @@ A ranked bar chart with conditional colour coding (green for profit, red for los
 
 ## 🧩 Product Mix by Category
 
-![Product Mix by Category](screenshots/product-analysis/product-mix-by-category.png)
+[Product Mix by Category](screenshots/product-analysis/product-mix-by-category.png)
 
 ### Purpose
 This visual shows how sales are distributed across subcategories within each category, revealing which subcategories dominate category revenue and where concentration risk may exist.
@@ -399,7 +399,7 @@ A 100% stacked bar chart is ideal for showing proportional contribution within c
 
 ## 🏆 Top 10 Products by Profit
 
-![Top 10 Products by Profit](screenshots/product-analysis/top-10-products-by-profit.png)
+[Top 10 Products by Profit](screenshots/product-analysis/top-10-products-by-profit.png)
 
 ### Purpose
 This visual identifies the ten individual products generating the highest profit contribution to the business.
@@ -451,7 +451,7 @@ The following scenarios demonstrate how the dashboard responds to targeted filte
 
 ### Scenario 1 — Furniture | Consumer Segment
 
-![Scenario 1 - Furniture Consumer](screenshots/product-analysis/scenario-furniture-consumer.png)
+[Scenario 1 - Furniture Consumer](screenshots/product-analysis/scenario-furniture-consumer.png)
 
 #### Filters Applied
 - Date Range = April 3, 2023 — April 1, 2026
@@ -476,7 +476,7 @@ The subcategory breakdown reveals that **Tables (-10.0%) and Bookcases (-7.6%)**
 
 ### Scenario 2 — Furniture | Home Office Segment
 
-![Scenario 2 - Furniture Home Office](screenshots/product-analysis/scenario-furniture-home-office.png)
+[Scenario 2 - Furniture Home Office](screenshots/product-analysis/scenario-furniture-home-office.png)
 
 #### Filters Applied
 - Date Range = April 3, 2023 — April 1, 2026
@@ -532,7 +532,7 @@ It also validates that all slicers dynamically update every visual across the pa
 
 ## 📋 Dashboard View
 
-![Risk Analysis Overview](screenshots/risk-analysis/risk-analysis-overview.png)
+[Risk Analysis Overview](screenshots/risk-analysis/risk-analysis-overview.png)
 
 ### Overview
 While the Executive Overview and Product Analysis pages focus on overall performance and product profitability, the Risk Analysis page investigates the underlying causes of profit loss across the business.
@@ -573,7 +573,7 @@ These findings suggest that profitability challenges are driven more by pricing 
 
 ## 💥 Impact of Discounts on Profitability
 
-![Impact of Discounts on Profitability](screenshots/risk-analysis/impact-of-discounts-on-profitability.png)
+[Impact of Discounts on Profitability](screenshots/risk-analysis/impact-of-discounts-on-profitability.png)
 
 ### Purpose
 This scatter chart maps the relationship between average discount levels and total profit across all transactions, revealing how discounting behaviour directly influences profitability outcomes.
@@ -606,7 +606,7 @@ A bubble scatter chart is the most effective visual for showing the relationship
 
 ## 📉 Loss by Sub-Category
 
-![Loss by Sub-Category](screenshots/risk-analysis/loss-by-subcategory.png)
+[Loss by Sub-Category](screenshots/risk-analysis/loss-by-subcategory.png)
 
 ### Purpose
 This visual identifies which subcategories are generating losses versus contributing positively to profit, allowing stakeholders to quickly isolate the problem areas within the business.
@@ -642,7 +642,7 @@ A diverging bar chart with conditional colour coding (red for losses, grey for p
 
 ## 📊 Average Discount by Sub-Category
 
-![Average Discount by Sub-Category](screenshots/risk-analysis/average-discount-by-subcategory.png)
+[Average Discount by Sub-Category](screenshots/risk-analysis/average-discount-by-subcategory.png)
 
 ### Purpose
 This visual ranks all subcategories by their average discount level, identifying which subcategories are being discounted most heavily and connecting discount behaviour to the loss patterns identified in the previous visuals.
@@ -672,7 +672,7 @@ A ranked column chart ordered from highest to lowest discount makes it easy to i
 
 ## 🔍 Low Margin Products
 
-![Low Margin Products](screenshots/risk-analysis/low-margin-products.png)
+[Low Margin Products](screenshots/risk-analysis/low-margin-products.png)
 
 ### Purpose
 This table identifies individual products with the most severely negative profit margins, providing granular visibility into specific products that are driving the business losses identified at the subcategory level.
@@ -719,7 +719,7 @@ The following scenarios demonstrate how the Risk Analysis page responds to targe
 
 ### Scenario 1 — Technology | East Region
 
-![Scenario 1 - Technology East](screenshots/risk-analysis/risk-analysis-technology-east-scenario.png)
+[Scenario 1 - Technology East](screenshots/risk-analysis/risk-analysis-technology-east-scenario.png)
 
 #### Filters Applied
 - Date Range = September 10, 2023 — September 10, 2026
@@ -746,7 +746,7 @@ The Low Margin Products table reveals that loss-making products in this segment 
 
 ### Scenario 2 — Furniture | Tables | East Region
 
-![Scenario 2 - Furniture Tables East](screenshots/risk-analysis/risk-analysis-furniture-tables-east-scenario.png)
+[Scenario 2 - Furniture Tables East](screenshots/risk-analysis/risk-analysis-furniture-tables-east-scenario.png)
 
 #### Filters Applied
 - Date Range = September 10, 2023 — September 10, 2026
@@ -802,7 +802,7 @@ This scenario analysis demonstrates the dashboard's ability to:
 
 ## 📋 Dashboard View
 
-![Business Drivers Overview](screenshots/business-drivers/business-drivers-overview.png)
+[Business Drivers Overview](screenshots/business-drivers/business-drivers-overview.png)
 
 ### Overview
 While the Executive Overview monitors overall business health, the Product Analysis examines product-level profitability, and the Risk Analysis investigates loss drivers, the Business Drivers Analysis page answers a different question entirely:
@@ -829,7 +829,7 @@ These KPIs provide the overall business benchmark used to evaluate how customer 
 
 ## 🧩 Sales Contribution by Segment
 
-![Sales Contribution by Segment](screenshots/business-drivers/sales-contribution-by-segment.png)
+[Sales Contribution by Segment](screenshots/business-drivers/sales-contribution-by-segment.png)
 
 ### Purpose
 This visual shows how total sales are distributed across the three customer segments — Consumer, Corporate, and Home Office — identifying which segments drive the most revenue and where growth opportunities may exist.
@@ -856,7 +856,7 @@ A donut chart is ideal for showing proportional contribution across a small numb
 
 ## 🗺️ Profit Distribution by Province
 
-![Profit Distribution by Province](screenshots/business-drivers/profit-distribution-by-province.png)
+[Profit Distribution by Province](screenshots/business-drivers/profit-distribution-by-province.png)
 
 ### Purpose
 This bubble map visualises profit performance at the state level, replacing a simple regional bar chart to reveal *where within each region* profit is actually being generated — and where geographic risk concentrations exist.
@@ -893,7 +893,7 @@ A bubble map communicates geographic profit distribution far more effectively th
 
 ## 💠 Sales vs Discount Relationship
 
-![Sales vs Discount Relationship](screenshots/business-drivers/sales-vs-discount-relationship.png)
+[Sales vs Discount Relationship](screenshots/business-drivers/sales-vs-discount-relationship.png)
 
 ### Purpose
 This scatter chart maps total sales against average discount level by subcategory, identifying which subcategories generate the highest revenue relative to their discount levels — and which ones rely on heavy discounting to drive volume.
@@ -923,7 +923,7 @@ A bubble scatter chart effectively shows the relationship between sales volume a
 
 ## 🚚 Shipping Mode Performance
 
-![Shipping Mode Performance](screenshots/business-drivers/shipping-mode-performance.png)
+[Shipping Mode Performance](screenshots/business-drivers/shipping-mode-performance.png)
 
 ### Purpose
 This visual analyses profit contribution by shipping mode, identifying which delivery methods generate the most business value and where operational efficiency may be improved.
@@ -951,7 +951,7 @@ A column chart ranked by profit makes shipping mode performance immediately comp
 
 ## 📋 Business Performance Drivers
 
-![Business Performance Drivers](screenshots/business-drivers/business-performance-drivers.png)
+[Business Performance Drivers](screenshots/business-drivers/business-performance-drivers.png)
 
 ### Purpose
 This table provides a complete subcategory-level breakdown of sales, profit, and margin across all three categories — serving as the single most comprehensive reference point for understanding exactly which subcategories are driving business performance.
@@ -1010,7 +1010,7 @@ The following two scenarios compare Technology performance across two different 
 
 ### Scenario 1 — Technology | East Region | Consumer Segment
 
-![Scenario 1 - Technology East Consumer](screenshots/business-drivers/business-drivers-technology-east-consumer-scenario.png)
+[Scenario 1 - Technology East Consumer](screenshots/business-drivers/business-drivers-technology-east-consumer-scenario.png)
 
 #### Filters Applied
 - Date Range = December 11, 2023 — December 11, 2026
@@ -1040,7 +1040,7 @@ Standard Class shipping dominates profit contribution at $12.13K, with First Cla
 
 ### Scenario 2 — Technology | West Region | Corporate Segment
 
-![Scenario 2 - Technology West Corporate](screenshots/business-drivers/business-drivers-technology-west-corporate-scenario.png)
+[Scenario 2 - Technology West Corporate](screenshots/business-drivers/business-drivers-technology-west-corporate-scenario.png)
 
 #### Filters Applied
 - Date Range = December 11, 2023 — December 11, 2026
