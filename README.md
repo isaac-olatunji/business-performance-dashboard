@@ -53,6 +53,7 @@ Power Query
 
 
 DAX Measures
+
 daxTotal Sales =
 SUM(Orders[Sales])
 
