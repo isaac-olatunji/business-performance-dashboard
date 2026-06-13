@@ -30,8 +30,14 @@ Key Findings
 
 
 📸 Dashboard Preview
-Executive OverviewProduct AnalysisShow ImageShow Image
-Risk AnalysisBusiness DriversShow ImageShow Image
+| Executive Overview | Product Analysis |
+|---|---|
+|[!Executive-Overview](../screenshots/executive-overview/executive-overview.png)| [!Product Analysis](../screenshots/product-analysis/product-analysis-overview.png) |
+
+| Risk Analysis | Business Drivers |
+|---|---|
+| [!Risk Analysis](../screenshots/risk-analysis/risk-analysis-overview.png) | [!Business Drivers](../screenshots/business-drivers/business-drivers-overview.png) |
+
 
 📊 Dashboard Pages
 - Executive Overview
@@ -47,13 +53,10 @@ Examines discount-related risks, loss-making products, margin erosion, and profi
 Explores customer segments, regional performance, shipping modes, and growth opportunities influencing business performance.
 
 🛠️ Technical Implementation
-Data Transformation
-
-Power Query
-
-
-DAX Measures
-
+- Data Transformation
+- Power Query
+- DAX Measures
+''
 daxTotal Sales =
 SUM(Orders[Sales])
 
@@ -71,7 +74,7 @@ CALCULATE(
 
 Average Discount =
 AVERAGE(Orders[Discount])
-
+''
 ## 📄 Detailed Business Analysis
 
 A comprehensive report containing dashboard walkthroughs, scenario analysis, business insights, and strategic recommendations is available below:
