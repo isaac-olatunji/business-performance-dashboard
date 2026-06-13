@@ -55,9 +55,12 @@ Explores customer segments, regional performance, shipping modes, and growth opp
 🛠️ Technical Implementation
 - Data Transformation
 - Power Query
-- DAX Measures
-''
-daxTotal Sales =
+# 📐 Key DAX Measures
+
+The following DAX measures were written to calculate business KPIs and support dynamic analysis across all dashboard pages.
+
+```dax
+Total Sales =
 SUM(Orders[Sales])
 
 Total Profit =
@@ -74,7 +77,9 @@ CALCULATE(
 
 Average Discount =
 AVERAGE(Orders[Discount])
-''
+```
+
+---
 ## 📄 Detailed Business Analysis
 
 A comprehensive report containing dashboard walkthroughs, scenario analysis, business insights, and strategic recommendations is available below:
