@@ -573,7 +573,7 @@ These findings suggest that profitability challenges are driven more by pricing 
 
 ## 💥 Impact of Discounts on Profitability
 
-![Impact of Discounts on Profitability](./screenshots/risk-analysis/impact-of-discounts-on-profitability.png)
+![Impact of Discounts on Profitability](../screenshots/risk-analysis/impact-of-discounts-on-profitability.png)
 
 ### Purpose
 This scatter chart maps the relationship between average discount levels and total profit across all transactions, revealing how discounting behaviour directly influences profitability outcomes.
