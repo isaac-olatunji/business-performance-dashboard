@@ -88,9 +88,8 @@ A comprehensive report containing dashboard walkthroughs, scenario analysis, bus
 
 - 📄 [Download Full PDF Report](https://drive.google.com/file/d/1Qz2UDzFIMmklUaprypAoSkThTqzTO5xL/view?usp=sharing)
 
-## 📁 Power BI Project File
-
-The original Power BI project file used to build this dashboard is available below:
+## 📁 Project Assets
+The original project files used to build this dashboard are available below:
 
 - 📊 [Download Power BI (.pbix) File](powerbi/Business_Performance_Dashboard.pbix)
 
