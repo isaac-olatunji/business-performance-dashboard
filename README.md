@@ -86,7 +86,7 @@ A comprehensive report containing dashboard walkthroughs, scenario analysis, bus
 
 - 📖 [View Full Analysis Report (Markdown)](dashboard-report/Business_Performance_Analysis_Report.md)
 
-- 📄 [Download Full PDF Report](https://drive.google.com/file/d/1xG117Wbz9lQLfdvJ4aw0o3JhG7-gKGSj/view?usp=sharing)
+- 📄 [Download Full PDF Report](https://drive.google.com/file/d/1Qz2UDzFIMmklUaprypAoSkThTqzTO5xL/view?usp=sharing)
 
 🚀 Skills Demonstrated
 Power BI
